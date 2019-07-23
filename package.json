@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/bfulk13/learn-webpack#readme",
   "devDependencies": {
+    "css-loader": "^3.1.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.37.0",
     "webpack-cli": "^3.3.6"
   }
