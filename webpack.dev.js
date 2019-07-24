@@ -7,7 +7,7 @@ module.exports = merge(common, {
   // devtool: "none",
   // will make the eval stuff go away so you can read your bundled code
   output: {
-    filename: "main.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist")
   }
 });
